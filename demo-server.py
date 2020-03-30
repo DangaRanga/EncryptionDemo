@@ -35,6 +35,7 @@ def encryptMsg(message,fernetObj):
 # key recieved                                      
 # -------------------------------------------------------------------------- #
 def decryptMsg(message,fernetObj):
+    print("Encrypted message: {}".format(message))
     return fernetObj.decrypt(message)
 
 #def serverprompt():
